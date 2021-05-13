@@ -23,7 +23,7 @@ body {
   position: relative;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #28284e;
   color: white;
 }
 
@@ -56,12 +56,14 @@ body {
   padding: 1rem;
 }
 
-.navbar-links li:hover {
+.navbar-links li a:hover {
   /* border-bottom: 1px solid var(--navGradient); */
   text-align: center;
+  display: inline-block;
   margin: 0px;
-  background: var(--navGradient) left bottom #333 no-repeat;
-  background-size: 100% 2px;
+  background: var(--navGradient) left bottom #28284e no-repeat;
+  background-size: 80% 2px;
+  background-position: center 80%;
 }
 
 #icon-link {
