@@ -69,8 +69,8 @@ body {
 }
 
 .dot {
-  height: 2rem;
-  width: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #fff;
   border-radius: 50%;
   display: flex;
