@@ -59,7 +59,7 @@ body {
 .navbar-links li:hover {
   /* border-bottom: 1px solid var(--navGradient); */
   text-align: center;
-  padding-bottom: 5px;
+  margin: 0px;
   background: var(--navGradient) left bottom #333 no-repeat;
   background-size: 100% 2px;
 }
