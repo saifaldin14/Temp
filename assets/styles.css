@@ -19,6 +19,7 @@ body {
 }
 
 /* Put CSS Styles Here */
+
 .navbar {
   display: flex;
   position: relative;
@@ -188,6 +189,8 @@ body {
   display: inline-block;
   width: 30px;
   height: 17px;
+  margin-top: 1.2rem;
+  margin-left: 0.3rem;
 }
 
 /* Hide default HTML checkbox */
@@ -243,6 +246,51 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: grey;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+#content-button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: red;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+}
+
+.details-div {
+  display: none;
+}
+
+.details-div.active {
+  display: flex;
+}
+
+.details {
+  display: flex;
 }
 
 .footer {
