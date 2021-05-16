@@ -80,15 +80,34 @@ body {
   margin: 1rem;
 }
 
-.toggle-button {
+.icon-link-mobile {
+  display: none;
+}
+
+.dot-mobile {
   position: absolute;
-  top: 0.75rem;
+  top: 0.25rem;
   right: 1rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.toggle-button {
+  /* position: absolute;
+  top: 0.75rem;
+  right: 1rem; */
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 21px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .toggle-button .bar {
@@ -506,8 +525,15 @@ input:checked + .slider:before {
     align-items: flex-start;
   }
 
+  .toggle-menu-mobile {
+    width: 100%;
+  }
+
   .toggle-button {
     display: flex;
+    margin-left: 47%;
+    text-align: center;
+    /* margin-left: 5rem; */
   }
 
   .navbar-links {
@@ -536,10 +562,28 @@ input:checked + .slider:before {
     display: none;
   }
 
+  .mobile-navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon-link-mobile {
+  }
+
+  .dot-mobile {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1rem;
+  }
+
   .content-div {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: none;
   }
   .content-1 {
     margin-top: 0;
