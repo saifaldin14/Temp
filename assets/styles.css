@@ -532,6 +532,10 @@ input:checked + .slider:before {
     display: flex;
   }
 
+  #icon-link {
+    display: none;
+  }
+
   .content-div {
     display: flex;
     flex-direction: column;
@@ -539,7 +543,7 @@ input:checked + .slider:before {
   }
   .content-1 {
     margin-top: 0;
-    margin-left: 5rem;
+    margin-left: 4rem;
     flex-direction: column;
   }
 
@@ -581,13 +585,14 @@ input:checked + .slider:before {
 
   .content-2 {
     justify-content: flex-end;
-    margin-left: 5rem;
+    margin-left: 4rem;
     width: 80%;
   }
 
   .card {
     width: 80%;
-    margin-left: 5rem;
+    justify-content: center;
+    margin-left: 4rem;
   }
   .zero-blocked {
     display: none;
@@ -647,14 +652,13 @@ input:checked + .slider:before {
     border-radius: 5px;
   }
   .last-text {
+    margin-left: 4rem;
     padding-bottom: 10rem;
   }
   .footer {
-    margin-top: auto;
-    position: absolute;
-    bottom: 0;
     flex-direction: column;
     align-items: center;
+    position: relative;
   }
 
   .logo-footer {
