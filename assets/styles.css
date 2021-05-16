@@ -81,7 +81,13 @@ body {
 }
 
 .icon-link-mobile {
+  position: absolute;
+  top: 1.5rem;
+  right: 7rem;
   display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
 }
 
 .dot-mobile {
@@ -562,12 +568,13 @@ input:checked + .slider:before {
     display: none;
   }
 
-  .mobile-navbar {
+  .icons-mobile {
     display: flex;
     flex-direction: row;
   }
 
   .icon-link-mobile {
+    display: flex;
   }
 
   .dot-mobile {
@@ -575,7 +582,7 @@ input:checked + .slider:before {
     width: 2.5rem;
     background-color: #fff;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
     margin: 1rem;
   }
 
