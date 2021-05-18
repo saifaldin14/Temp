@@ -91,14 +91,14 @@ body {
   background-color: #fff;
   border-radius: 50%;
   display: flex;
-  margin: 1rem;
+  margin: 1rem 2rem 1rem 1rem;
 }
 
 .icon-link-mobile {
+  display: none;
   position: absolute;
   top: 1.5rem;
   right: 7rem;
-  display: none;
   flex-direction: column;
   justify-content: space-between;
   color: #fff;
@@ -194,7 +194,7 @@ body {
 }
 
 .btn-generate {
-  background-color: DodgerBlue;
+  background-color: #0060df;
   border: none;
   color: white;
   padding: 0.5rem 1rem;
@@ -307,9 +307,6 @@ input:checked + .slider:before {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
   width: 75%;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   margin-top: 0rem;
   margin-left: 10rem;
   border-radius: 5px;
@@ -335,7 +332,7 @@ input:checked + .slider:before {
 .show-details-content {
   display: flex;
   flex-direction: column;
-  margin: 0 5rem 1rem 0;
+  margin: 0rem 5rem 1rem 0rem;
 }
 
 .email-1 {
@@ -343,11 +340,10 @@ input:checked + .slider:before {
   font-weight: 400;
   font-size: 15;
   margin-bottom: 0rem;
+  margin-top: 1rem;
 }
 
 .content-button {
-  /* align-items: center;
-  justify-content: center; */
   display: flex;
   margin-top: 1rem;
   text-align: left;
@@ -393,30 +389,39 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 
+.number-display {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
 .zero-blocked {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: 0 5rem 0 0;
+  margin: 0rem 3rem 0rem 0rem;
 }
 
 .zero-forward {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: 0 0.5rem 0 0;
+  margin: 0rem 0.5rem 0rem 0rem;
 }
 
 .number-1 {
   font-weight: 200;
+  font-size: 24px;
   color: grey;
+  margin-top: 1rem;
   margin-bottom: 0rem;
 }
 
 .number-2 {
   font-weight: 200;
+  font-size: 24px;
+  margin-top: 1rem;
   margin-bottom: 0rem;
 }
 
@@ -502,6 +507,7 @@ input:checked + .slider:before {
   font-weight: 300;
   margin-left: 10rem;
   text-align: left;
+  width: 75%;
 }
 
 .details {
@@ -528,6 +534,7 @@ input:checked + .slider:before {
 
 .footer-container {
   height: 100%;
+  margin-right: 4rem;
 }
 
 .footer-container ul {
@@ -803,6 +810,7 @@ input:checked + .slider:before {
   .footer-container {
     width: 50%;
     margin-bottom: 30px;
+    margin-right: 0rem;
     display: flex;
   }
 
